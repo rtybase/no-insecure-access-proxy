@@ -54,7 +54,7 @@ file-port=8181
 proxy-port=3000
 # local path to the "/files" folder with the content of the PAC file and splash scree
 files-folder=etc/
-# tell's proxy where to redirect (303) the requests, in this case to the splash page
+# tells proxy where to redirect (303) the requests, in this case to the splash page
 # hosted by the file sharing service
 redirect-page=http://127.0.0.1:8181/files/splash.html
  

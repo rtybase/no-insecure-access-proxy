@@ -76,9 +76,7 @@ public class SimpleServer {
 	}
 
 	private static void addSunPropertiesToSystem(Properties props) {
-		props.entrySet().forEach(e -> {
-			checkAndRegisterSystemProperty(e);
-		});
+		props.entrySet().forEach(SimpleServer::checkAndRegisterSystemProperty);
 	}
 
 	private static void checkAndRegisterSystemProperty(Entry<Object, Object> e) {
