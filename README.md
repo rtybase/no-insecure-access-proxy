@@ -130,4 +130,4 @@ NOTE: Yes, `127.0.0.1` is already excluded from being proxied, it's just a place
 
 Configure your browser's PAC file path to point at `http://127.0.0.1:8181/files/proxy.pac`. 
 
-NOTE: Chenge `127.0.0.1` if you host this proxy elsewhere.
+NOTE: Change `127.0.0.1` if you host this proxy elsewhere.
